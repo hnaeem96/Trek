@@ -115,6 +115,19 @@ h3 {
     color: #fff;
 }
 
+.signup-button:link,
+.signup-button:visited {
+    border: 2px solid var(--green) !important;
+    border-radius: 3px;
+    padding: 10px 20px !important;
+    transition: background-color 0.2s, border 0.2s !important;
+}
+
+.signup-button:hover,
+.signup-button:active {
+    background-color: var(--green);
+}
+
 /* Header Code */
 
 header {
@@ -125,7 +138,7 @@ header {
 }
 
 .logo {
-    height: 50px;
+    height: 40px;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -134,7 +147,7 @@ header {
 .navigation {
     float: right;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .navigation li {
