@@ -65,11 +65,9 @@ h1 {
     border-color: #1e8449;
 }
 
-.btn-filled:hover, .btn-filled:active {
-
-}
-
 .btn-hollow:hover, .btn-filled:active {
+    background-color: var(--green);
+    border-color: var(--green);
     color: #fff;
 }
 
@@ -106,6 +104,9 @@ header {
     color: #fff;
     text-transform: capitalize;
     font-size: 90%;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
 }
 
 .navigation li a:hover,
