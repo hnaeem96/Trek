@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --green: #27ae60;
+}
+
 html {
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -45,14 +49,14 @@ h1 {
 }
 
 .btn-filled:link, .btn-filled:visited {
-    background-color: #27ae60;
-    border: 2px solid #27ae60;
+    background-color: var(--green);
+    border: 2px solid var(--green);
     color: #fff;
     margin-right: 15px;
 }
 
 .btn-hollow:link, .btn-hollow:visited {
-    border: 2px solid #27ae60;
+    border: 2px solid var(--green);
     color: #27ae60;
 }
 
@@ -76,6 +80,37 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.navigation {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 90%;
+}
+
+.navigation li a:hover,
+.navigation li a:active {
+    border-bottom: 2px solid var(--green);
 }
 
 .travel-text-box {
