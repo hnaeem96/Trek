@@ -1,3 +1,5 @@
+/* Main Setup */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,25 +14,14 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* Resuable Components */
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dubai-header.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-.travel-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/* Headings Code */
 
 h1 {
     margin-top: 0;
@@ -41,6 +32,8 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 3px;
 }
+
+/* Buttons Code */
 
 .btn:link, .btn:visited {
     display: inline-block;
@@ -74,4 +67,21 @@ h1 {
 
 .btn-hollow:hover, .btn-filled:active {
     color: #fff;
+}
+
+/* Header Code */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dubai-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.travel-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
