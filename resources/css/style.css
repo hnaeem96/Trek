@@ -18,7 +18,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/maldives-1993704.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dubai-header.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -42,21 +42,36 @@ h1 {
     word-spacing: 3px;
 }
 
-.btn {
+.btn:link, .btn:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px;
+    border-radius: 3px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-filled {
+.btn-filled:link, .btn-filled:visited {
     background-color: #27ae60;
     border: 2px solid #27ae60;
     color: #fff;
+    margin-right: 15px;
 }
 
-.btn-hollow {
+.btn-hollow:link, .btn-hollow:visited {
     border: 2px solid #27ae60;
     color: #27ae60;
+}
+
+.btn:hover, .btn:active {
+    background-color: #1e8449;
+    border-color: #1e8449;
+}
+
+.btn-filled:hover, .btn-filled:active {
+
+}
+
+.btn-hollow:hover, .btn-filled:active {
+    color: #fff;
 }
