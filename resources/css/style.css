@@ -31,6 +31,7 @@ section {
 
 .box {
     padding: 1%;
+    text-align: center;
 }
 
 /* Headings Code */
@@ -75,10 +76,21 @@ h3 {
 
 /* Paragraphs Code */
 
+p {
+    font-weight: 300;
+}
+
 .about-paragraph {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    margin-bottom: 40px;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    text-align: left;
 }
 
 /* Buttons Code */
@@ -128,6 +140,15 @@ h3 {
     background-color: var(--green);
 }
 
+/* Paragraphs Code */
+
+.about-icon {
+    color: var(--green);
+    display: block;
+    font-size: 350%;
+    margin-bottom: 10px;
+}
+
 /* Header Code */
 
 header {
@@ -142,6 +163,14 @@ header {
     width: auto;
     float: left;
     margin-top: 20px;
+}
+
+.logo-text {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 130%;
 }
 
 .navigation {
