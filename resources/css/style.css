@@ -292,6 +292,10 @@ header {
     width: auto;
     margin-right: 10px;
 }
-.how-it-works-section {
-    
+
+/* Top Cities */
+
+.box img {
+    width: 100%;
+    height: auto;
 }
