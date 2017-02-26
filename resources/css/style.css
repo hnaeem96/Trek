@@ -298,4 +298,21 @@ header {
 .box img {
     width: 100%;
     height: auto;
+    margin-bottom: 15px;
+}
+
+.top-city-label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.top-city-label i {
+    display: inline-block;
+    width: 30px;
+    font-size: 135%;
+    line-height: 135%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 8px;
+    color: var(--green)
 }
