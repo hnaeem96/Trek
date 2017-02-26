@@ -293,7 +293,7 @@ header {
     margin-right: 10px;
 }
 
-/* Top Cities */
+/* Top Cities Section */
 
 .box img {
     width: 100%;
@@ -315,4 +315,10 @@ header {
     margin-top: -5px;
     margin-right: 8px;
     color: var(--green)
+}
+
+/* Testimonials Section */
+
+.testimonials-section {
+    background-image: 
 }
