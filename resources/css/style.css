@@ -18,6 +18,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* Resuable Components */
 
 .row {
@@ -234,7 +246,52 @@ header {
 
 /* How it works section */
 
+.how-it-works-section {
+    background-color: #eafaf1;  
+}
+
+.how-it-works-top-row {
+    margin-bottom: 60px;
+}
+
 .img-col img {
     width: 100%;
     height: auto;
+    margin-top: 10px;
+}
+
+.steps-col {
+    padding-right: 40px;
+    padding-left: 15px;
+}
+
+.how-it-works-steps {
+    margin-bottom: 35px;
+}
+
+.how-it-works-steps div {
+    color: var(--green);
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    font-size: 150%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.how-it-works-steps:last-of-type {
+    margin-top: 50px;
+}
+
+.app-button img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+.how-it-works-section {
+    
 }
