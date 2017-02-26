@@ -355,3 +355,59 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/* Deals Section */
+
+.deals-section {
+    background-color: #eafaf1;
+}
+
+.deal-box {
+    background-color: #fff;
+    border-radius: 4px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 5px 5px #c6c6c6;
+    transition: box-shadow 0.3  s;
+}
+
+.deal-box:hover {
+    box-shadow: 5px 10px 10px #c6c6c6;
+}
+
+.deal-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.deal-box div:first-child {
+    background-color: #f9f9f9;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.deal-box div:last-child {
+    text-align: center;
+    border-bottom: none;
+}
+
+.deal-price {
+    font-size: 260%;
+    color: var(--green);
+    margin-bottom: 10px;
+}
+
+.deal-price-plan {
+    font-size: 80%;
+}
+
+.deal-box li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.deal-box li i {
+    font-size: 125%;
+    color: var(--green);
+    margin-right: 10px;
+}
