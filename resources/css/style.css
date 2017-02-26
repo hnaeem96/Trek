@@ -167,6 +167,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dubai-header.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -320,5 +321,37 @@ header {
 /* Testimonials Section */
 
 .testimonials-section {
-    background-image: 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../resources/img/singapore.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+blockquote {
+    position: relative;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+blockquote:before {
+    position: absolute;
+    content: "\201C";
+    font-size: 350%;
+    display: block;
+    top: -10px;
+    left: -6px;
+}
+
+cite {
+    display: block;
+    font-size: 90%;
+    margin-top: 25px;
+}
+
+cite img {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
