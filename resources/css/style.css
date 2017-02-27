@@ -107,7 +107,7 @@ p {
 
 /* Buttons Code */
 
-.btn:link, .btn:visited {
+.btn:link, .btn:visited, input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 400;
@@ -116,7 +116,7 @@ p {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-filled:link, .btn-filled:visited {
+.btn-filled:link, .btn-filled:visited, input[type=submit] {
     background-color: var(--green);
     border: 2px solid var(--green);
     color: #fff;
@@ -128,7 +128,7 @@ p {
     color: #27ae60;
 }
 
-.btn:hover, .btn:active {
+.btn:hover, .btn:active, input[type=submit]:hover, input[type_submit]:active {
     background-color: #1e8449;
     border-color: #1e8449;
 }
@@ -368,7 +368,7 @@ cite img {
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 5px 5px #c6c6c6;
-    transition: box-shadow 0.3  s;
+    transition: box-shadow 0.3s;
 }
 
 .deal-box:hover {
@@ -411,3 +411,55 @@ cite img {
     color: var(--green);
     margin-right: 10px;
 }
+
+/* Sign Up Section */
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+select {
+    background-color: #fff;
+    font-weight: 100;
+    color: #9b9b9b;
+}
+
+textarea {
+    height: 100px;
+}
+
+.news-checkbox {
+    background-color: #eafaf1 !important;
+    margin: 10px 7px 10px 0;
+}
+
+
+
+*:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-weight: 100;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-weight: 100;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-weight: 100;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-weight: 100;
+}
+
