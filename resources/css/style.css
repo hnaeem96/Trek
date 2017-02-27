@@ -114,6 +114,7 @@ p {
     font-weight: 400;
     text-decoration: none;
     border-radius: 3px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -145,6 +146,7 @@ p {
     border: 2px solid var(--green) !important;
     border-radius: 3px;
     padding: 10px 20px !important;
+    -webkit-transition: background-color 0.2s, border 0.2s !important;
     transition: background-color 0.2s, border 0.2s !important;
 }
 
@@ -165,6 +167,7 @@ p {
 /* Header Code */
 
 header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dubai-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dubai-header.jpg);
     background-size: cover;
     background-position: center;
@@ -206,6 +209,7 @@ header {
     font-size: 90%;
     padding: 8px 0;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -219,6 +223,7 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -322,6 +327,7 @@ header {
 /* Testimonials Section */
 
 .testimonials-section {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../resources/img/singapore.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../resources/img/singapore.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -369,6 +375,7 @@ cite img {
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 5px 5px #c6c6c6;
+    -webkit-transition: box-shadow 0.3s;
     transition: box-shadow 0.3s;
 }
 
@@ -475,6 +482,7 @@ footer a {
     color: #8e8e8e;
     text-decoration: none;
     border: 0;
+    -webkit-transition: color 0.3s;
     transition: color 0.3s;
 }
 
