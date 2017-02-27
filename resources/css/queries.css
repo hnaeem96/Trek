@@ -54,13 +54,15 @@
         margin: 0% 0% 4% 0%;
     }
     
-    footer .col {
-        width: 100%;
-    }
+    .how-it-works-section .col {width: 100%;}
     
-    .sign-up-section .col {
-        width: 100%;
-    }
+    .how-it-works-section p {padding-bottom: 30px;}
+    
+    .how-it-works-top-row {margin-bottom:10px;}
+    
+    footer .col {width: 100%;}
+    
+    .sign-up-section .col {width: 100%;}
     
     .navigation {display: none;}
     
@@ -104,10 +106,20 @@
     }
 }
 
+/*For about section*/
+@media only screen and (max-width: 510px) {    
+    .about-section .col {width: 100%;}
+}
+    
 /*Small phonesx*/
 @media only screen and (max-width: 480px) {
     
     .col {width:100%;}
+    
+    .app-button img {
+        height: 40px;
+        width: auto;    
+    }
     
     .top-city-label{
         padding-bottom: 5px;
