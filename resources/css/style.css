@@ -484,8 +484,8 @@ footer a:hover, footer a:active {
 
 .links-row {
     width: 80%;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 30px !important;
+    margin-bottom: 40px;
 }
 
 .footer-nav {
@@ -518,4 +518,8 @@ footer a:hover, footer a:active {
     font-size: 80%;
     color: var(--green);
     opacity: 0.7;
+}
+
+.copyright-row p:last-child {
+        padding-bottom: 20px;
 }
