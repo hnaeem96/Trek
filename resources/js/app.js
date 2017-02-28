@@ -39,13 +39,13 @@ $(document).ready(function () {
     $('.js-fade').waypoint(function (direction) {
         $('.js-fade').addClass('animated fadeIn');
     }, {
-        offset: '50%'
+        offset: '75%'
     });
     
     $('.js-img').waypoint(function (direction) {
-        $('.js-img').addClass('animated slideInUp');
+        $('.js-img').addClass('animated slideInLeft');
     }, {
-        offset: '50%'
+        offset: '75%'
     });
     
     $('.mobile-nav-icon').click(function () {
