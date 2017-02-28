@@ -47,4 +47,19 @@ $(document).ready(function () {
     }, {
         offset: '50%'
     });
+    
+    $('.mobile-nav-icon').click(function () {
+        var nav = $('.navigation');
+        var navIcon = $('.mobile-nav-icon i');
+        
+        nav.slideToggle(250);
+        if (navIcon.hasClass ('ion-navicon-round')) {
+            navIcon.addClass('ion-close-round');
+            navIcon.removeClass('ion-navicon-round');
+        } 
+        else {
+            navIcon.addClass('ion-navicon-round');
+            navIcon.removeClass('ion-close-round');
+        }
+    });
 });
