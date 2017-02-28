@@ -42,11 +42,57 @@
     
     .copyright-row p:last-child {margin-bottom: 30px;}
 
-    /*Phones to small tablets*/
+/*Phones to small tablets*/
 @media only screen and (max-width: 767px) {
     body {font-size: 16px;}
     
     section {padding:30px 0}
+    
+    .nav .row {
+        position: relative;
+    }
+    
+    .logo-text {display: none;}
+    
+    .mobile-nav-icon {
+        position: absolute;
+        display: inline-block;
+        right: 5%;
+    }
+    
+    .navigation {
+        margin-top: 100px;
+    }
+    
+    .navigation li {
+        display: block;
+        font-size: 120%;
+        padding-bottom: 10px;
+    }
+    
+    .navigation li a:link,
+    .navigation li a:visited {
+        display: block;
+        border: 0;
+    }
+    
+    .sticky-navigation .navigation {
+        margin-top: 60px;
+        text-align: right;
+    }
+    
+    .sticky-navigation .mobile-nav-icon {
+        margin-top: 5px;
+    }
+    
+    .sticky-navigation .mobile-nav-icon i {
+        color: #27ae60;
+    }
+
+    .sticky-navigation .navigation li a:link,
+    .sticky-navigation .navigation li a:visited {
+        padding: 10px 0;
+    }
     
     .row, .travel-text-box {padding: 0 4%;}
     
@@ -64,8 +110,6 @@
     footer .col {width: 100%;}
     
     .sign-up-section .col {width: 100%;}
-    
-    .navigation {display: none;}
     
     .about-paragraph {
         width: 100%;
