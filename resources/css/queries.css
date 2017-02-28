@@ -121,6 +121,7 @@
     .about-paragraph {
         width: 100%;
         margin: 0;
+        padding-bottom: 60px;
     }
     
     h1 {font-size: 200%;}
