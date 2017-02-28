@@ -45,11 +45,6 @@
 /*Phones to small tablets*/
 @media only screen and (max-width: 767px) {
     
-    header img {
-        height: 100%;
-        width: auto;
-    }
-    
     body {font-size: 16px;}
     
     section {padding:30px 0}
