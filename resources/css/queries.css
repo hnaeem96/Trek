@@ -177,13 +177,6 @@
 /*Small phonesx*/
 @media only screen and (max-width: 480px) {
     
-    header {
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        height: 99vh;
-    }
-    
     .col {width:100%;}
     
     .travel-text-box a {margin-bottom: 15px;}
