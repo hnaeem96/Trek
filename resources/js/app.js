@@ -34,5 +34,17 @@ $(document).ready(function () {
                 }
             }
         });
-    });    
+    });
+    
+    $('.js-fade').waypoint(function (direction) {
+        $('.js-fade').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+    
+    $('.js-img').waypoint(function (direction) {
+        $('.js-img').addClass('animated slideInUp');
+    }, {
+        offset: '50%'
+    });
 });

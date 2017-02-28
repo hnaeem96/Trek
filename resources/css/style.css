@@ -556,3 +556,13 @@ footer a:hover, footer a:active {
 .copyright-row p:last-child {
         padding-bottom: 20px;
 }
+
+/* Animations */
+
+.js-fade, .js-img {
+    opacity: 0;
+}
+
+.js-fade.animated, .js-img.animated {
+    opacity: 1;
+}
