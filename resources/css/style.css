@@ -188,7 +188,7 @@ header {
 }
 
 .logo-text {
-    display: inline-block;
+    display: inline-block !important;
     margin-top: 25px;
     margin-left: 10px;
     color: #fff;
@@ -250,6 +250,7 @@ header {
 
 .sticky-navigation .navigation {
     margin-top: 15px;
+    display: inline-block;
 }
 
 .sticky-navigation .navigation li a:link,

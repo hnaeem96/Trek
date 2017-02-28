@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.js-nav').waypoint(function (direction) {
+    $('.travel-text-box').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky-navigation animated fadeInDownBig');
         }
