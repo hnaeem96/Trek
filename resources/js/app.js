@@ -62,10 +62,4 @@ $(document).ready(function () {
             navIcon.removeClass('ion-close-round');
         }
     });
-    
-    $('.js-a').click(function () {
-        var nav = $('.sticky-navigation .navigation');
-        
-        nav.slideToggle(150);
-    });
 });
