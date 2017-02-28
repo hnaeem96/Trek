@@ -45,8 +45,9 @@
 /*Phones to small tablets*/
 @media only screen and (max-width: 767px) {
     
-    header {
-        height: -webkit-calc(100vh - 0px);
+    header img {
+        height: 100%;
+        width: auto;
     }
     
     body {font-size: 16px;}
