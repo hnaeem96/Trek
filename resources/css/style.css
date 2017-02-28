@@ -173,14 +173,14 @@ header {
 
 /* Main Navigation Bar*/
 
-.logo, .logo-black {
+.logo, .logo-green {
     height: 40px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
 
-.logo-black {
+.logo-green {
     height: 30px;
     width: auto;
     float: left;
@@ -237,7 +237,7 @@ header {
 
 .sticky-navigation .logo {display:none;}
 
-.sticky-navigation .logo-black {
+.sticky-navigation .logo-green {
     display: block;
     margin-top: 10px;
 }
