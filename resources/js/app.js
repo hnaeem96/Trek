@@ -52,14 +52,19 @@ $(document).ready(function () {
         var nav = $('.navigation');
         var navIcon = $('.mobile-nav-icon i');
         
-        nav.slideToggle(250);
-        if (navIcon.hasClass ('ion-navicon-round')) {
+        if ((nav).is(":hidden")) {
             navIcon.addClass('ion-close-round');
             navIcon.removeClass('ion-navicon-round');
-        } 
+            nav.slideDown(250);
+        }
+        else if ((nav).is(":visible") && navIcon.hasClass('ion-navicon-round')) {
+                 nav.slideUp(250);
+        }
+        
         else {
             navIcon.addClass('ion-navicon-round');
             navIcon.removeClass('ion-close-round');
+            nav.slideUp(250);
         }
     });
 });
