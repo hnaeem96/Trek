@@ -36,18 +36,6 @@ $(document).ready(function () {
         });
     });
     
-    $('.js-fade').waypoint(function (direction) {
-        $('.js-fade').addClass('animated fadeIn');
-    }, {
-        offset: '75%'
-    });
-    
-    $('.js-img').waypoint(function (direction) {
-        $('.js-img').addClass('animated slideInLeft');
-    }, {
-        offset: '75%'
-    });
-    
     $('.mobile-nav-icon').click(function () {
         var nav = $('.navigation');
         var navIcon = $('.mobile-nav-icon i');

@@ -167,7 +167,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dubai-header.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
     height: 100vh;
 }
 
@@ -199,6 +199,11 @@ header {
     float: right;
     list-style: none;
     margin-top: 25px;
+    -webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   transform: translateZ(0);
 }
 
 .navigation li {
@@ -233,6 +238,11 @@ header {
     background-color: rgba(255, 255, 255, 0.98) ;
     box-shadow: 0 2px 2px #cccccc;
     z-index: 9999;
+    -webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   transform: translateZ(0);
 }
 
 .sticky-navigation .logo {display:none;}
@@ -569,14 +579,4 @@ footer a:hover, footer a:active {
 
 .copyright-row p:last-child {
         padding-bottom: 20px;
-}
-
-/* Animations */
-
-.js-fade, .js-img {
-    opacity: 0;
-}
-
-.js-fade.animated, .js-img.animated {
-    opacity: 1;
 }
