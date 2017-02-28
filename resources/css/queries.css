@@ -61,7 +61,7 @@
     }
     
     .navigation {
-        margin-top: 100px;
+        display: none;
     }
     
     .navigation li {
