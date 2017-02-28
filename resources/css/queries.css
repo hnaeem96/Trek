@@ -57,6 +57,7 @@
     .mobile-nav-icon {
         position: absolute;
         display: inline-block;
+        margin-top: 20px;
         right: 5%;
     }
     
@@ -76,13 +77,18 @@
         border: 0;
     }
     
+    .navigation {
+        margin-top: 60px;
+        text-align: right;
+    }
+    
     .sticky-navigation .navigation {
         margin-top: 60px;
         text-align: right;
     }
     
     .sticky-navigation .mobile-nav-icon {
-        margin-top: 5px;
+        margin-top: 7px;
     }
     
     .sticky-navigation .mobile-nav-icon i {
@@ -172,6 +178,8 @@
 @media only screen and (max-width: 480px) {
     
     .col {width:100%;}
+    
+    .travel-text-box a {margin-bottom: 15px;}
     
     .deals-section .col {
         width: 100%;
