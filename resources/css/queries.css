@@ -58,7 +58,7 @@
         width: auto;
     }
     
-    .logo-text {display: none;}
+    .logo-text {display: none !important}
     
     .mobile-nav-icon {
         position: absolute;
@@ -84,6 +84,8 @@
         display: block;
         border: 0;
     }
+    
+    .sticky-navigation {padding-bottom: 10px;}
     
     .sticky-navigation .navigation {
         display: none;
