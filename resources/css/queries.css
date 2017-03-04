@@ -58,7 +58,9 @@
         width: auto;
     }
     
-    .logo-text {display: none !important}
+    .logo-text {margin-top: 23px}
+    
+    .sticky-navigation .logo-text {display: none !important}
     
     .mobile-nav-icon {
         position: absolute;
