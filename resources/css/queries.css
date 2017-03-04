@@ -64,6 +64,8 @@
     
     .navigation {
         display: none;
+        margin-top: 60px;
+        text-align: right;
     }
     
     .navigation li {
@@ -78,12 +80,8 @@
         border: 0;
     }
     
-    .navigation {
-        margin-top: 60px;
-        text-align: right;
-    }
-    
     .sticky-navigation .navigation {
+        display: none;
         margin-top: 60px;
         text-align: right;
     }
