@@ -53,6 +53,11 @@
         position: relative;
     }
     
+    .full-logo img {
+        height: 30px;
+        width: auto;
+    }
+    
     .logo-text {display: none;}
     
     .mobile-nav-icon {
