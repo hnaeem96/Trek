@@ -1,5 +1,22 @@
 $(document).ready(function () {
 
+    $(function(){
+        var $w = $(window),
+        $background = $('header');
+
+      // Fix background image jump on mobile
+      if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+            $background.css({'top': 'auto', 'bottom': 0});
+
+            $w.resize(sizeBackground);
+            sizeBackground();
+        }
+
+      function sizeBackground() {
+         $background.height(screen.height);
+        }
+    });
+    
     $('.travel-text-box').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky-navigation animated fadeInDownBig');
