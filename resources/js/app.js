@@ -63,6 +63,12 @@ $(document).ready(function () {
             navIcon.addClass('ion-close-round');
             navIcon.removeClass('ion-navicon-round');
             nav.slideToggle(250);
+
+            $('.navigation li a').click(function () {
+              navIcon.addClass('ion-navicon-round');
+              navIcon.removeClass('ion-close-round');
+              nav.slideUp(250);
+            });
         }
         else if ((nav).is(":visible") && navIcon.hasClass('ion-navicon-round')) {
                  nav.slideUp(250);
