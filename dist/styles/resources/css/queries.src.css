@@ -1,0 +1,216 @@
+@media only screen and (max-width:1200px) {
+    .travel-text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0 3%
+    }
+    .row {
+        padding: 0 3%
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 18px
+    }
+    .deal-box,
+    .top-city-label {
+        font-size: 90%
+    }
+    .about-paragraph {
+        width: 80%;
+        margin-left: 10%
+    }
+    .how-it-works-steps {
+        margin-bottom: 20px
+    }
+    .how-it-works-steps:last-of-type {
+        margin-top: 35px
+    }
+    .top-city-label i {
+        width: 15px;
+        margin-right: 5px
+    }
+    .deal-box {
+        width: 100%;
+        margin-left: 0
+    }
+    .deal-price {
+        font-size: 210%
+    }
+    .contact-form {
+        width: 80%
+    }
+    .copyright-row p:last-child {
+        margin-bottom: 30px
+    }
+    @media only screen and (max-width:767px) {
+        header {
+            background-attachment: scroll
+        }
+        body {
+            font-size: 16px
+        }
+        section {
+            padding: 30px 0
+        }
+        .navigation li,
+        .sticky-navigation {
+            padding-bottom: 10px
+        }
+        .nav .row {
+            position: relative
+        }
+        .full-logo img {
+            height: 30px;
+            width: auto
+        }
+        .logo-text {
+            margin-top: 23px
+        }
+        .sticky-navigation .logo-text {
+            display: none!important
+        }
+        .mobile-nav-icon {
+            position: absolute;
+            display: inline-block;
+            margin-top: 20px;
+            right: 5%
+        }
+        .navigation {
+            display: none;
+            margin-top: 60px;
+            text-align: right
+        }
+        .navigation li {
+            display: block;
+            font-size: 120%
+        }
+        .navigation li a:link,
+        .navigation li a:visited {
+            display: block;
+            border: 0
+        }
+        .sticky-navigation .navigation {
+            display: none;
+            margin-top: 60px;
+            text-align: right
+        }
+        .footer-nav,
+        .social-links {
+            float: none;
+            text-align: center
+        }
+        .sticky-navigation .mobile-nav-icon {
+            margin-top: 7px
+        }
+        .sticky-navigation .mobile-nav-icon i {
+            color: #27ae60
+        }
+        .sticky-navigation .navigation li a:link,
+        .sticky-navigation .navigation li a:visited {
+            padding: 10px 0
+        }
+        .row,
+        .travel-text-box {
+            padding: 0 4%
+        }
+        .col {
+            width: 50%;
+            margin: 0 0 4%
+        }
+        .how-it-works-section .col,
+        .sign-up-section .col,
+        footer .col {
+            width: 100%
+        }
+        .how-it-works-section p {
+            padding-bottom: 30px
+        }
+        .how-it-works-top-row {
+            margin-bottom: 10px
+        }
+        .about-paragraph {
+            width: 100%;
+            margin: 0;
+            padding-bottom: 60px
+        }
+        h1 {
+            font-size: 200%
+        }
+        h2 {
+            font-size: 150%
+        }
+        .how-it-works-steps div {
+            font-size: 125%;
+            height: 40px;
+            width: 40px
+        }
+        .top-city-label {
+            padding-bottom: 10px;
+            font-size: 110%
+        }
+        .top-city-label i {
+            margin-right: 15px
+        }
+        .testimonials-section .row:first-child {
+            margin-bottom: 30px
+        }
+        blockquote {
+            margin-bottom: 20px;
+            padding: 0 10%
+        }
+        .deals-section .col {
+            width: 48%;
+            margin: 0 1% 4%
+        }
+        .footer-nav {
+            padding-top: 20px;
+            font-size: 100%
+        }
+        .social-links {
+            padding: 15px 0;
+            font-size: 200%
+        }
+        .copyright-row p {
+            font-size: 90%
+        }
+    }
+    @media only screen and (max-width:510px) {
+        .about-section .col {
+            width: 100%
+        }
+    }
+    @media only screen and (max-width:480px) {
+        .col,
+        .deals-section .col {
+            width: 100%
+        }
+        .travel-text-box a {
+            margin-bottom: 15px
+        }
+        .app-button img {
+            height: 40px;
+            width: auto
+        }
+        .top-city-label {
+            padding-bottom: 5px;
+            font-size: 100%
+        }
+        .testimonials-section .row:first-child {
+            margin-bottom: 30px
+        }
+        .testimonials-section .col {
+            padding-bottom: 30px
+        }
+        .cite {
+            text-align: center
+        }
+        .contact-form {
+            width: 100%
+        }
+        .footer-nav li {
+            margin-right: 10px
+        }
+    }
+}
