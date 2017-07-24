@@ -1,0 +1,106 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "03d33c884f9e922d5c0daeeb191e750f9d1b69db"
+      }
+    ],
+    "outputSha": "a23bdc066e35d214c58d453013696066506b233d",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "c32f8d4ec62a4ac47e5291318d78a246b37249d6"
+      }
+    ],
+    "outputSha": "2b0360d24ee9ad8040e3cfd04fad499650dd0d4c",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/resources/main.css",
+        "sha": "6628cc0be9eff84e8975b917259d911455555ca5"
+      }
+    ],
+    "outputSha": "8927ab5318a3fec1eacc65cba72e6a5815fef37a",
+    "input": "styles/resources/main.css",
+    "output": [
+      "styles/resources/main.css.map",
+      "styles/resources/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/resources/css/queries.css",
+        "sha": "308e41b93c9946fbd9e824390497c271ec9adc1c"
+      }
+    ],
+    "outputSha": "4202c56c0341a4a279a1864cc91489889e67469d",
+    "input": "styles/resources/css/queries.css",
+    "output": [
+      "styles/resources/css/queries.css.map",
+      "styles/resources/css/queries.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/resources/css/style.css",
+        "sha": "7705b441bda58ff4d61351b581dcfc73f92e8e9e"
+      }
+    ],
+    "outputSha": "a75c4c482f4e6718870d68169082564a1231b340",
+    "input": "styles/resources/css/style.css",
+    "output": [
+      "styles/resources/css/style.css.map",
+      "styles/resources/css/style.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/vendors/css/grid.css",
+        "sha": "44fbb03891687528b6e12e213b23c3fb32e5e7c0"
+      }
+    ],
+    "outputSha": "507ade903cb49b9f6ce2cde423355dee49e5698a",
+    "input": "styles/vendors/css/grid.css",
+    "output": [
+      "styles/vendors/css/grid.css.map",
+      "styles/vendors/css/grid.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/vendors/css/normalize.css",
+        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    ],
+    "outputSha": "6471fa7e1e6595ceaee65eda60756c95cf2d7ecb",
+    "input": "styles/vendors/css/normalize.css",
+    "output": [
+      "styles/vendors/css/normalize.css.map",
+      "styles/vendors/css/normalize.css"
+    ]
+  }
+]
