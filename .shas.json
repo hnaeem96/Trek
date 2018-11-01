@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "fdbdec86ac3710c2e447423c055c4002d23f2d9b"
+        "sha": "cd57821e29b858542bd9982b41da463ea789c3bf"
       }
     ],
-    "outputSha": "26bffe8e3a04667dd2c817f8114403c467148a76",
+    "outputSha": "d2ef15811b409c1368f49d8873e534d9dd89b7a0",
     "input": "index.html",
     "output": [
       "index.html"
@@ -18,7 +18,7 @@
     "inputSha": [
       {
         "file": "scripts/main.js",
-        "sha": "c32f8d4ec62a4ac47e5291318d78a246b37249d6"
+        "sha": "ae8541603c92c2e0ca621cee7b20f5947bc033c6"
       }
     ],
     "outputSha": "2b0360d24ee9ad8040e3cfd04fad499650dd0d4c",
@@ -32,56 +32,11 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "styles/resources/main.css",
-        "sha": "6628cc0be9eff84e8975b917259d911455555ca5"
-      }
-    ],
-    "outputSha": "8927ab5318a3fec1eacc65cba72e6a5815fef37a",
-    "input": "styles/resources/main.css",
-    "output": [
-      "styles/resources/main.css.map",
-      "styles/resources/main.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/resources/css/queries.css",
-        "sha": "308e41b93c9946fbd9e824390497c271ec9adc1c"
-      }
-    ],
-    "outputSha": "4202c56c0341a4a279a1864cc91489889e67469d",
-    "input": "styles/resources/css/queries.css",
-    "output": [
-      "styles/resources/css/queries.css.map",
-      "styles/resources/css/queries.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/resources/css/style.css",
-        "sha": "7705b441bda58ff4d61351b581dcfc73f92e8e9e"
-      }
-    ],
-    "outputSha": "a75c4c482f4e6718870d68169082564a1231b340",
-    "input": "styles/resources/css/style.css",
-    "output": [
-      "styles/resources/css/style.css.map",
-      "styles/resources/css/style.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "styles/vendors/css/grid.css",
-        "sha": "44fbb03891687528b6e12e213b23c3fb32e5e7c0"
+        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
       }
     ],
-    "outputSha": "507ade903cb49b9f6ce2cde423355dee49e5698a",
+    "outputSha": "4c19c0455551f61059615caff14afa9f1b9309b9",
     "input": "styles/vendors/css/grid.css",
     "output": [
       "styles/vendors/css/grid.css.map",
@@ -92,15 +47,15 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "styles/vendors/css/normalize.css",
-        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        "file": "styles/resources/css/style.css",
+        "sha": "6446856bf56a841c643bc26d45807fec2c65ebbd"
       }
     ],
-    "outputSha": "6471fa7e1e6595ceaee65eda60756c95cf2d7ecb",
-    "input": "styles/vendors/css/normalize.css",
+    "outputSha": "4e4e00ddbdb5bea55d5e0cf34bf9ae79d80df123",
+    "input": "styles/resources/css/style.css",
     "output": [
-      "styles/vendors/css/normalize.css.map",
-      "styles/vendors/css/normalize.css"
+      "styles/resources/css/style.css.map",
+      "styles/resources/css/style.css"
     ]
   }
 ]
